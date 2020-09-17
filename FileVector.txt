@@ -1,0 +1,73 @@
+Please select a geometric object: 
+(1) Point 
+(2) Vector 
+(3) Line  
+(4) Segment  
+(5) Triangle  
+(6) Tetrahedron 
+Your choice: 2
+x, y, z: 1, 2, 3
+Please select an operation for the object: 
+1 - Vector length
+2 - Vector direction
+3 - Check Zero vector
+4 - Check for parallelism of two vectors
+5 - Check for perpendicularity of two vectors
+6 - Addition of two vectors
+7 - Subtraction of two vectors
+8 - Multiplication of a vector by a real number
+9 - Dot product of two vectors
+10 - Cross product of two vectors
+11 - Mixed product of three vectors
+Your choice: 1
+Length = 3.74166
+Your choice: 2
+Direction = 0.267261, 0.534522, 0.801784
+Your choice: 4
+x, y, z: 2, 4, 6
+Check for parallelism: false
+Your choice: 4
+x, y, z: 5, 8, 2
+Check for parallelism: false
+Your choice: 5
+x, y, z: 0, -3, 2
+Check for perpendicularity: true
+Your choice: 5
+x, y, z: 1, 2, 3
+Check for perpendicularity: false
+Your choice: 11
+x, y, z: 12, 41, 65
+x, y, z: 2, 1, 7
+Mixed product: 104
+Your choice: 3
+Please, select an operation from the list: 
+1 - Find the direction of the line - returns a vector parallel to the line
+2 - Find a normal vector - returns a vector perpendicular to the line
+3 - Find the angle between two lines - returns the value of the angle in radians
+4 - Check if point is on line with operator +
+5 - Check if line is parallel to another line with operator ||
+6 - Check if lines are equal with operator ==
+7 - Check if line cross another line with operator &&
+8 - Check if Skew lines with operator !=
+9 - Check if lines are perpendicullar with operator |
+Your choice: 1Direction of the line = -2, -1, 0
+Your choice: 5
+Please select an operation for the object: 
+1 - Type of triangle
+2 - Area of triangle
+3 - Perimeter of triangle
+4 - Medicenter of the triangle by returning a Point object
+5 - Check if point is in triangle (inside) with operator <
+6 - Check if point is outside triangle with operator >
+7 - Check if point is on one of the sides of triangle with operator ==
+Your choice: 1
+0, 0, 0
+Your choice: 2
+0, 0, 0
+Area = 12.5
+Your choice: 3
+0, 0, 0
+Perimeter =  17.0711
+Your choice: 5
+3, 3, 30, 0, 0
+True
